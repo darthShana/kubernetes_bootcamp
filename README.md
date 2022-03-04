@@ -35,4 +35,5 @@ If you're running the app ive built, then you just need to build it
 npm install
 node index.js
 ```
+opening a browser and going to http://localhost:3333/books should show
 <img src="images/local_app.png" alt="app running" >
