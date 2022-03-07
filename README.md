@@ -60,4 +60,4 @@ Now going to http://localhost:8080/books should give you the same result as the 
 docker push [DOCKERHUB_USERNAME]/node-simple-app:dev
 ```
 now check that your image is available for the whole world to use. But only you can push to it.
-<img src="images/docker_hub.png" alt="app running" >
+<img src="images/docker_hub.png" alt="app container" >
