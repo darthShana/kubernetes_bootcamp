@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: [YOUR_NAME]-simple-api-service
+spec:
+  type: LoadBalancer
+  selector:
+    app: [YOUR_NAME]-simple-api
+  ports:
+    - protocol: TCP
+      port: [Change port]
+      targetPort: 3333
