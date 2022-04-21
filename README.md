@@ -51,7 +51,7 @@ docker build . -t [DOCKERHUB_USERNAME]/node-simple-app:dev
 ```
 ### Test your image
 ```
-docker run -p 8080:3333 darthshana/node-simple-app:dev
+docker run -p 8080:3333 [DOCKERHUB_USERNAME]/node-simple-app:dev
 ```
 Now going to http://localhost:8080/books should give you the same result as the figure above
 ### Push your image to the world
